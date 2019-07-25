@@ -2,8 +2,8 @@
 ### This code is written based on Adrian Rosebrock Tutorial https://www.pyimagesearch.com/2017/12/04/how-to-create-a-deep-learning-dataset-using-google-images/
 
 ## Find the images
-1. Finde images for your object in Google Image search.
-2. Keep scrolling until you have found all relevant images to your query. 
+1. Finde images of your intrest object from Google Image search.
+2. Keep scrolling until you have found all relevant images of your query. 
 
 ## JavaScript Console
  1. Pull down jquery into the JavaScript console
@@ -15,7 +15,7 @@ document.getElementsByTagName('head')[0].appendChild(script);
 ```
 2. Grab the URLs
 ```java
-var urls = $('.rg_di .rg_meta').map(function() { return JSON.parse($(this).text()).ou;
+var urls = $('.rg_di .rg_meta').map(function() { return JSON.parse($(this).text()).ou; });
 ```
 3. Write the URls to file (one per line)
 
